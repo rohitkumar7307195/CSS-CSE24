@@ -1,0 +1,38 @@
+body{
+    text-align:center ;
+}
+div{
+ height:50px; 
+   width: 150px;
+   display:inline-block;
+   border: 2px solid black;
+}
+#container{
+    width:600px;
+    height: 600px;
+    display:flex ;
+    flex-direction: center ;
+    /* justify-content:space-evenly; */
+ /* flex-wrap: wrap; 
+align-items: start;  */
+  /* align-content: center; */
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    height: 100px;
+    /* flex-grow:1 ; */
+    background-color: pink;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color:red ;
+}
+#box5{
+
+    background-color:blue;
+    /* align-self:flex-end ; */
+}
